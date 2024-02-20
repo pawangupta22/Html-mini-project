@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <style> table, tr, td, th {border: 1px solid black}
+     </style> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR portal</title>
+</head>
+<body>
+    
+     <header>
+              <h1> Welcome To Company HR Portal </h1>
+              <image src="employees.jpg" style="width: 100%;"></image>
+     <nav>
+        <ul> 
+          <li> <a href="#Employees-Registration">Employees Registration</a></li>
+          <li> <a href="#Employee-directory"> Employee Directory</a> </li>
+          <li> <a href="#Contact-us">Contact Us</a> </li>
+        </ul>
+      </nav>
+    </header> 
+
+      <section id="Employees-Registration">
+        <h2>Employees Registration</h2>
+        <p>Fill the below form to registered as Employee</p>
+        <form>
+          <label for="name">Your name:</label>
+          <input type="text" id="name"> <br><br>
+          <label for="email id"> Email id:</label>
+          <input type="email" id="email"><br><br>
+          <label for="password"> Password:</label>
+          <input type="password" id="password"><br><br>
+          <label for="age"> Age:</label>
+          <input type="number" id="age"><br><br>
+          <label for="role"> Select role:</label>
+          <select id="role" >
+            <option value="software engineer">software engineer</option>
+            <option value="product manager"> product manager</option>
+            <option value="designer"> designer</option>
+            <option value="HR representative"> hr representative</option>
+          </select>
+          <br><br>
+          <label for="date"> Joining date </label>
+          <input type="date" id="date"><br><br>
+          <input type="submit">
+        </form>
+      </section>
+    
+      <section id="Employee-directory">
+        <h2>Employee directory</h2>
+        <p>List of all registerd employee</p>
+<table>
+<tr>
+  <th>Employee Id</th>
+  <th>Employee Name</th>
+  <th>Employee role</th>
+</tr>
+<tr>
+  <td> 034</td>
+  <td>pawan gupta </td>
+  <td> software engineer</td>
+</tr>
+<tr>
+  <td> 035</td>
+  <td>suraj tiwari </td>
+  <td>product manager</td>
+  <tr>
+    <td> 036</td>
+    <td>sachin kharwar </td>
+    <td> software engineer</td>
+  </tr>
+  <tr>
+    <td> 037</td>
+    <td>manoj singh </td>
+    <td> product manager</td>
+    <tr>
+      
+  </tr>
+</tr>
+</table>
+      </section>
+
+      <section id="Contact-us">
+        <h2>Contact Us</h2>
+        <P>you can contact us at company@official.com or call 999-000-000</P>
+        <p>Office timming : 9AM to 6PM </p>
+              </section>
+     <iframe src="googlemap.com"></iframe>
+
+     <section>
+      <footer>
+        <p>&copy; 2024 company name</p>
+      </footer>
+     </section>
+</body>
+</html> 
